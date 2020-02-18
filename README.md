@@ -1,29 +1,34 @@
 
 
-# Email_Django_App
-An Application which takes the recruiter's email and sends the profile of the candidate to the recruiter. The application also has the options to change the sender's email (this is available and only limited to GMAIL).
+# Resume Match | ML Prediction, whether a selected will be hired or not 
+Resume Match Platform provides the reviewers and recruiters to decide the strategy
+to select a resume from huge pool of resume database in order to automate the cumbersome process.
+This platform also predicts the possibility of selected resume for the final selection based on
+the historical records. (which consider the keywords for domain, page count of the resume, percentage of
+keywords match with the key_skill requirment and count of keywords from matches with the expected_threshold for specific domain.)
 
-## Steps to create the application
+Finally this application will be integrated with https://github.com/richie312/Email_Django_App which will be another application/feature of the Resume Builder Application (Based on Django).
 
-1. Setup the AWS RDS Database with Django. **Done** (&#x1F4D7;)
+A chatbot (rasa core trained) will also be integrated with the Resume Builder Application.
 
-2. Create the model and create fields in the database using django ORM. **Done**(&#x1F4D7;)
-    - connect with the existing table and manipulate the data: **Done**(&#x1F4D7;)
 
-3. Make the Frontend webform and integrate it with Django backend: **Done**(&#x1F4D7;)
-	- Added the datefield which by default populates the current time: **Done**(&#x1F4D7;)
 
-4. Make the provision to attach the resume:**In Progress**(&#x1F4D9;)
-	- upload button (accepts only pdf/html/docx): **In Progress**(&#x1F4D9;)
-	- connect it with email_portal.views.Sendmail: **In Progress**(&#x1F4D9;)
+## Steps to formulate the model 
 
-5. Make the provision to upload the image and add with the template layout.
+1. Create the Expectation Threshold Matrix, which contains the minimum number of count
+	and key skill for each domain. **Done** (&#x1F4D7;)
 
-	- pull in the login decorator and save the profile information by userwise.
-	- Make a separate division to edit the profile template and route to different page 
+2. Make the function pdfextract, create_profile and requirement match. Documentationis 
+available in doc string which can be accessed by inspect.getdoc(<<function_name>>) **Done**(&#x1F4D7;)
+    
+3. Apply it on multiple resume and collect the data in following field: **In Progress**(&#x1F4D9;)
+	- Match Details
+	- Page Count
+	- Keywords used in Resume for each Domain
+	- candidate name
+	- time taken 
 
-6. Provision to create the preview.
+4. Database Setup and Insertion of the details:**In Progress**(&#x1F4D9;)
+	
+5. Get the actual hiring decision made on the Resume (Hired: 1| Not Hired: 0)**In Progress**(&#x1F4D9;)
 
-7. Finally send the mail and Test it with different user.
-
-8. Render the details of the total number of applications made by individual users.
