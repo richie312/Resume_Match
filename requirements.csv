@@ -1,0 +1,22 @@
+Statistics,ML,DeepLearning,PythonLanguage,R,NLP,DataEngineering
+Bayes,Random Forest,CNN,python,ggplot,nlp,aws
+Hypothesis Testing,Gradient Boosting,RNN,oops,rmarkdown,natural language processing,ec2
+Random Forest,GBM,LSTM,object oriented,dplyr,topic modelling,amazon redshift
+Decision Tree,Bagging,GAN,flask,plyr,lda,pyspark
+Probability,Logistic Regression,Convolutional neural network,django,cran,latent dirichelt allocation,spark
+Visualisation,Regression,recurrent neural network,flask/django,lubridate,naïve bayes,hadoop
+Descriptive,Dimensional Reductionality,adam optimiser,decorator,tidyr,NER,mysql
+Modelling,Dimension Reduction,relu activation,threading,knitr,named entity recognition,sql
+Predictive Modelling,optimisation,cuda,dash,,pos tagging,postgresql
+Prediction,Modelling,tensorflow,requests,,word2vec,scala
+Logistic Regression,Clustering,keras,,,word embedding,kubernetes
+Regression,Supervised,theano,,,spacy,google big query
+Poisson Distribution,Unsupervised,pytorch,,,genism ,aws lambda
+Binomial Distribution,svm,opencv,,,NLTK,hive
+Normal Distribution,,yolo,,,Sentiment Analysis,mongodb
+,pandas,raspberrypi,,,BOW,docker
+,numpy,,,,CBOW,s3 bucket
+,scikit,,,,grams,
+,spacy,,,,ngram,
+,nltk,,,,chatbot,
+,,,,,regex,

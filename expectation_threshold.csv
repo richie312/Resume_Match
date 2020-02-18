@@ -1,0 +1,8 @@
+Domain,exp_threshold,key_skill
+statistics,2,Decision Tree
+ML,2,Random Forest
+Deep Learning,1,"('cnn', 'convolutional neural network')"
+Python language,2,flask
+R,1,ggplot
+NLP,2,"('chatbot', 'NER', 'regex')"
+Data,1,"('postgresql', 'sql', 'mysql', 'spark')"
